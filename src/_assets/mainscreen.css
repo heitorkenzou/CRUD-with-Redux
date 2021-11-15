@@ -1,0 +1,155 @@
+.containerMainScreen {
+  max-width: 800px;
+  max-width: 800px;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #cccccc;
+  margin: 0 auto;
+  margin-top: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 12px;
+}
+
+.bar {
+  height: 80px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  padding-right: 30px;
+}
+
+.bar1 {
+  height: 80px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  padding-right: 30px;
+}
+
+.boxPost {
+  max-width: 750px;
+  width: 750px;
+  height: 410px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+textarea {
+  background-color: #ffffff;
+  margin-top: 23px;
+  width: 89%;
+  height: 100px;
+  resize: none;
+  padding: 5px;
+  margin-left: 25px;
+  border: 1px solid #777777;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 400;
+  overflow: auto;
+}
+
+form {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.createButton {
+  margin-right: 52px;
+}
+
+h1 {
+  color: white;
+  margin-left: 50px;
+  font-size: 22px;
+}
+
+.icon {
+  color: white;
+  font-size: 26px;
+  margin-left: auto;
+}
+
+#informations {
+  display: flex;
+  justify-content: space-between;
+  padding: 17px;
+}
+
+#informations > h3 {
+  color: #777777;
+  font-size: 18px;
+}
+
+.searchBox {
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  color: #eee !important;
+  line-height: 1.625 !important;
+
+  background-color: #333 !important;
+
+  border-color: #eee;
+  border: none;
+  border-bottom: 1px solid #eee;
+
+  box-shadow: none;
+  box-sizing: content-box;
+  margin: auto;
+
+  border-radius: 0;
+  background-image: url(//addsearch.com/logo/AAAAAA-20.png) !important;
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+
+  width: 30% !important;
+  height: 20px;
+  padding: 15px !important;
+  cursor: auto !important;
+}
+
+.textareapost {
+  border: none;
+  overflow: hidden;
+  max-height: 300px;
+}
+
+@media (max-width: 850px) {
+  .boxPost {
+    height: 400px;
+    width: 400px;
+  }
+
+  .createButton {
+    margin-right: 21px;
+  }
+}
+
+@media (max-width: 400px) {
+  .boxPost {
+    height: 400px;
+    width: 330px;
+    justify-content: center;
+  }
+  .bar > h1 {
+    display: none;
+  }
+
+  .bar input {
+    margin-right: 0px;
+  }
+}
