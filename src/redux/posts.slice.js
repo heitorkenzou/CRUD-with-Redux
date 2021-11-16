@@ -4,7 +4,7 @@ const initialState = [];
 
 export const fetchPosts = createAsyncThunk("posts/fetchPosts", async () => {
   try {
-    const response = await fetch("https://dev.codeleap.co.uk/careers/");
+    const response = await fetch("http://dev.codeleap.co.uk/careers/?limit=30&offset=10");
     const data = await response.json();
     return data.results;
   } catch {}
