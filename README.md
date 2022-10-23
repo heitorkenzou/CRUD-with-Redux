@@ -6,7 +6,7 @@ Esse projeto foi criado com Create React App.
 
 Para executá-lo localmente, você pode rodar os seguintes comandos:
 
-npm install
+npm install </br>
 npm start
 
 Isso abrirá o http://localhost:3000 no seu browser.
