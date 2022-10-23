@@ -1,10 +1,10 @@
 
 Projeto criado para entrevista de estágio em Front-end na Codeleap. Funcionalidades do CRUD:
 <ul>
-<li>Login com localstorage</li>
+<li>Login com SessionStorage</li>
 <li>criação de posts</li>
 <li>edição e exclusão de posts do usuário logado</li>
-<li>visualização de posts criados anteriormente com localstorage</li>
+<li>visualização de posts criados anteriormente com SessionStorage</li>
 </ul>
 
 Neste projeto utilizei as seguintes técnicas:
